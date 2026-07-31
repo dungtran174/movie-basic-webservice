@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!-- SQLite JDBC: Đọc dữ liệu phim từ database đã crawl ở ->
+        <!-- SQLite JDBC: Đọc dữ liệu phim từ database đã crawl ở -->
         <dependency>
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
