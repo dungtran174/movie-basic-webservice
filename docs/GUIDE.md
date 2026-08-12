@@ -1,4 +1,4 @@
-# 📖 Hướng Dẫn Chi Tiết — Movie Web Service
+#  Hướng Dẫn Chi Tiết — Movie Web Service
 
 ## Tư tưởng bài toán nối tiếp Ở bạn đã cào dữ liệu và lưu vào SQLite. yêu cầu bạn **"mở cửa" cho người khác truy vấn dữ liệu đó** thông qua một Web Service (giao diện lập trình ứng dụng - API).
 
@@ -40,7 +40,7 @@ Nếu không, bạn click phải vào file `basic-webservice/pom.xml` → **Add 
 ### B1. Chạy trong IntelliJ
 
 1. Mở file `basic-webservice/src/main/java/com/example/movieservice/Main.java`
-2. Click nút **▶ Run** xanh bên cạnh `public static void main`
+2. Click nút ** Run** xanh bên cạnh `public static void main`
 3. Xem tab **Run** ở dưới cùng, bạn sẽ thấy:
 
 ```
@@ -111,7 +111,7 @@ Nghĩa là: **KHÔNG ĐƯỢC** thêm `if (actorName.startsWith("A"))` vào code
 
 ### C1. Dừng server (nếu đang chạy)
 
-Nhấn nút **■ Stop** (hình vuông đỏ) trong tab Run để dừng server hiện tại.
+Nhấn nút ** Stop** (hình vuông đỏ) trong tab Run để dừng server hiện tại.
 
 ### C2. Mở file cần đặt breakpoint
 
@@ -123,7 +123,7 @@ logger.debug("Processing actor: {} (Movie: {})", actorName, movie.getTitle());
 
 ### C3. Đặt Conditional Breakpoint
 
-1. **Click vào cột số dòng** (bên trái dòng `logger.debug(...)`) để đặt một breakpoint bình thường (xuất hiện chấm tròn đỏ 🔴).
+1. **Click vào cột số dòng** (bên trái dòng `logger.debug(...)`) để đặt một breakpoint bình thường (xuất hiện chấm tròn đỏ ).
 
 2. **Click chuột PHẢI** vào chấm tròn đỏ đó. Một popup sẽ hiện ra.
 
@@ -139,7 +139,7 @@ Lúc này chấm đỏ sẽ có thêm dấu `?` bên trong, cho biết đây là
 
 ### C4. Chạy ở chế độ Debug
 
-1. Nhấn nút **🪲 Debug** (hình con bọ) hoặc nhấn **Shift + F9**.
+1. Nhấn nút ** Debug** (hình con bọ) hoặc nhấn **Shift + F9**.
 2. Server sẽ khởi động ở chế độ Debug.
 3. Trên trình duyệt, truy cập: `http://localhost:8080/movies`
 
@@ -158,7 +158,7 @@ IntelliJ sẽ:
 
 - Nhấn **F9** (Resume Program) để tiếp tục → sẽ dừng lại ở diễn viên tiếp theo bắt đầu bằng "A"
 - Nhấn **F8** (Step Over) để chạy từng dòng một
-- Nhấn **■ Stop** để dừng hoàn toàn
+- Nhấn ** Stop** để dừng hoàn toàn
 
 ---
 

@@ -65,17 +65,17 @@ See `docs/HUONG_DAN.md` for detailed instructions on setting up conditional brea
 
 ```
 basic-webservice/
-├── pom.xml
-├── .env.example
-├── movies.db                          (copied from crawler project)
-├── docs/
-│   └── HUONG_DAN.md
-└── src/main/java/com/example/movieservice/
-    ├── Main.java                      # Entry point + HTTP server setup
-    ├── handler/
-    │   └── MovieHandler.java          # Request handling + JSON formatting
-    ├── model/
-    │   └── Movie.java                 # Data model
-    └── repository/
-        └── MovieRepository.java       # SQLite read operations
+ pom.xml
+ .env.example
+ movies.db                          (copied from crawler project)
+ docs/
+    HUONG_DAN.md
+ src/main/java/com/example/movieservice/
+     Main.java                      # Entry point + HTTP server setup
+     handler/
+        MovieHandler.java          # Request handling + JSON formatting
+     model/
+        Movie.java                 # Data model
+     repository/
+         MovieRepository.java       # SQLite read operations
 ```
